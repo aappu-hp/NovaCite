@@ -1,0 +1,20 @@
+2025-08-04 03:02:25 INFO     USER: who are you | INTENT: identity
+2025-08-04 03:02:28 INFO     BOT : I am NovaCite, a helpful assistant built for Malnad College of Engineering. I provide faculty info and college circulars.
+2025-08-04 03:02:38 INFO     USER: who created you | INTENT: identity
+2025-08-04 03:02:40 INFO     BOT : I was created by Anonymous for Malnad College of Engineering.
+2025-08-04 03:02:49 INFO     USER: what can you do | INTENT: identity
+2025-08-04 03:02:51 INFO     BOT : I'm NovaCite, an assistant for Malnad College of Engineering. I can provide information about faculty and college circulars.
+2025-08-04 03:03:19 INFO     USER: i need a list of all HODs in the all dept of Malnad College of engineering | INTENT: faculty_info
+2025-08-04 03:03:26 INFO     BOT : Here is a list of the HODs (Heads of Department) at Malnad College of Engineering, based on the provided data:
+
+*   **Civil Engineering:** Dr. H. S. Narashimhan
+*   **Computer Science and Engineering:** Dr. Chandrika.J
+*   **Electronics and Communication Engineering:** Dr. Padmaja Devi G
+*   **Electrical and Electronics Engineering:** Dr. Rajanna S.
+*   **Mechanical Engineering:** Dr. Ezhil Vannan S
+*   **Information Science and Engineering:** Dr. Ananda Babu J
+*   **Computer Science and Business Systems:** Dr. Ramesh B
+*   **AI & ML:** Dr. Arjun B C
+*   **Mathematics:** Dr. Kalavathi G K
+2025-08-04 03:03:49 INFO     USER: 6th sem exam timetable | INTENT: pdf_request
+2025-08-04 03:03:58 INFO     BOT : \u2705 Downloaded and saved to ./data/pdfs\Make_up_exam_Time_table_for_4th_and_6th_SEM.pdf

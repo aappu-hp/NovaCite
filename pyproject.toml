@@ -1,0 +1,27 @@
+[project]
+name = "college-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "apscheduler>=3.11.0",
+    "beautifulsoup4>=4.13.4",
+    "bs4>=0.0.2",
+    "crawl4ai>=0.7.2",
+    "flask>=3.1.1",
+    "lancedb>=0.24.2",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.3.72",
+    "langchain-google-genai>=2.1.8",
+    "langgraph>=0.6.2",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "playwright>=1.54.0",
+    "pyarrow>=21.0.0",
+    "pydantic-settings>=2.10.1",
+    "python-dotenv>=1.1.1",
+    "tenacity>=9.1.2",
+]
