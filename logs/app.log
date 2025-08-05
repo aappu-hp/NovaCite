@@ -18,3 +18,29 @@
 *   **Mathematics:** Dr. Kalavathi G K
 2025-08-04 03:03:49 INFO     USER: 6th sem exam timetable | INTENT: pdf_request
 2025-08-04 03:03:58 INFO     BOT : \u2705 Downloaded and saved to ./data/pdfs\Make_up_exam_Time_table_for_4th_and_6th_SEM.pdf
+2025-08-04 22:08:38 INFO     USER: who are you | INTENT: identity
+2025-08-04 22:08:41 INFO     BOT : I am NovaCite, a helpful assistant built for Malnad College of Engineering. I provide information about faculty and college circulars.
+2025-08-04 22:08:55 INFO     USER: what is your name | INTENT: identity
+2025-08-04 22:08:57 INFO     BOT : I am NovaCite, an assistant for Malnad College of Engineering.
+2025-08-04 22:09:04 INFO     USER: what can you do | INTENT: identity
+2025-08-04 22:09:06 INFO     BOT : I'm NovaCite, an assistant for Malnad College of Engineering. I can provide faculty information and college circulars.
+2025-08-04 22:09:45 INFO     USER: i need a list of all HODs in Malnad College of Engineering | INTENT: faculty_info
+2025-08-04 22:09:52 INFO     BOT : Here is a list of the HODs at Malnad College of Engineering, according to the provided data:
+
+*   Dr. Ezhil Vannan S (Mechanical Engineering)
+*   Dr. Padmaja Devi G (Electronics and Communication Engineering)
+*   Dr. H. S. Narashimhan (Civil Engineering)
+*   Dr. Chandrika.J (Computer Science and Engineering)
+*   Dr. Ananda Babu J (Information Science and Engineering)
+*   Dr. Ramesh B (Computer Science and Business Systems)
+*   Dr. Rajanna S. (Electrical and Electronics Engineering)
+*   Dr. Kalavathi G K (Mathematics)
+*   Dr. Arjun B C (Computer Science and Engineering AI & ML)
+2025-08-04 22:10:05 INFO     USER: who is shruti | INTENT: faculty_info
+2025-08-04 22:10:08 INFO     BOT : Here are the Shrutis listed in the context:
+
+*   Mrs.Shruthi K R Assistant Professor in Computer Science and Engineering (skr@mcehassan.ac.in)
+*   Ms. Shruthi D V Assistant Professor in Information Science and Engineering (dvs@mcehassan.ac.in)
+*   Mrs .Shruthi B S Assistant Professor in Information Science and Engineering (bs@mcehassan.ac.in)
+2025-08-04 22:10:40 INFO     USER: i need exa schedules | INTENT: pdf_request
+2025-08-04 22:11:42 INFO     BOT : \u2705 Downloaded and saved to ./data/pdfs\Final_time_table_of_SEE_for_final_year_students202.pdf

@@ -28,6 +28,57 @@ An **Intelligent College Information RAG System** for **Malnad College of Engine
 
 ---
 
+## 🏗️ Architecture Diagram
+
+```mermaid
+graph TD
+    %% ===== DATA SOURCES =====
+    MCE[MCE Portal] -->|Circular Data| CS
+    FAC[Faculty Pages] -->|Faculty Data| FS
+
+    %% ===== DATA PREPARATION =====
+    subgraph DP[" "]
+        FS(Faculty Scraper) --> FE[Embedding]
+        CS(Circular Scraper) --> CE[Embedding]
+        FE --> FDB[(Faculty DB)]
+        CE --> CDB[(Circular DB)]
+        DP_Title>Data Preparation]:::title
+    end
+
+    %% ===== USER INTERACTION =====
+    subgraph QP[" "]
+        U[User Query] --> IR(Intent Recognizer)
+        IR -->|faculty_info| QA[Map-Reduce QA]
+        IR -->|pdf_request| SS[Semantic Search]
+        IR -->|unknown| FB[Fallback]
+        FDB --> QA
+        CDB --> SS
+        QP_Title>Query Processing]:::title
+    end
+
+    %% ===== RESPONSE GENERATION =====
+    subgraph RH[" "]
+        QA --> FR[Faculty Response]
+        SS --> CL[Circular List]
+        CL --> PD[PDF Download]
+        FR & PD & FB --> R[Response to User]
+        RH_Title>Response Handling]:::title
+    end
+
+    %% ===== LOGGING =====
+    R --> L[Logger]
+    L --> APP[(app.log)]
+
+    %% ===== AUTOMATION =====
+    AP[APScheduler] -->|Daily Trigger| CS
+
+    %% ===== STYLING =====
+    classDef title fill:transparent, stroke:transparent, color:black, width:0, height:0, text-align:left;
+    class DP_Title,QP_Title,RH_Title title;
+```
+
+---
+
 ## 🔧 Prerequisites
 
 * Python 3.11+
