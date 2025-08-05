@@ -31,10 +31,11 @@ An **Intelligent College Information RAG System** for **Malnad College of Engine
 ## 🏗️ Architecture Diagram
 
 ```mermaid
+%%{init: {'theme': 'default'}}%%
 graph TD
     %% ===== DATA SOURCES =====
-    MCE[MCE Circulars Page] -->|Circular Data| CS
-    FAC[MCE Faculty Pages] -->|Faculty Data| FS
+    MCE[MCE Portal] -->|Circular Data| CS
+    FAC[Faculty Pages] -->|Faculty Data| FS
 
     %% ===== DATA PREPARATION =====
     subgraph DP[" "]
