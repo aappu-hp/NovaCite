@@ -31,7 +31,7 @@ An **Intelligent College Information RAG System** for **Malnad College of Engine
 ## 🏗️ Architecture Diagram
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+%%{init:{'theme':'base','themeVariables':{'diagramBackground':'#ffffff'}}}%%
 graph TD
     %% ===== DATA SOURCES =====
     MCE[MCE Portal] -->|Circular Data| CS
